@@ -1,0 +1,23 @@
+body { /* Styles for the body section */
+background-color: lightgrey;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+
+nav ul { /* Styles the unordered list of the navigation section */
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: larger;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
