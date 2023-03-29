@@ -2,11 +2,30 @@ body { /* Styles for the body section */
 background-color: lightgrey;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-align: center;
+margin: 10%;
+}
+
+img { /* Styles for images */
+    max-width: 100%;
+    height: auto;
+    float: inline-start;
+    margin: 1em;
+}
+
+.facebook {
+    height: 50px;
+    width: 50px;
+}
+
+.twitter {
+    height: 50px;
+    width: 50px;
 }
 
 nav ul { /* Styles the unordered list of the navigation section */
     list-style-type: none;
     text-align: center;
+    background-color: #545454;
 }
 
 nav li {
@@ -19,5 +38,10 @@ nav li a {
     text-align: center;
     padding: 1em 1em;
     text-decoration: none;
+    color: whitesmoke;
+}
+
+nav li a:visited {
+    color: #a4640c;
 }
 
